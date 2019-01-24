@@ -1,11 +1,15 @@
 # SimString Python Package
 
-## Usage
+## Step to build
 
-Add this to `requirements.txt`:
 
 ```
-git+git://github.com/vitalco/simstring-python-package#egg=simstring
+git clone https://github.com/blinkhealth/simstring-python-package
+cd simstring-python-package/
+python3 setup.py build_ext
+sudo python3  setup.py install
+python3 sample.py
+
 ```
 
 ## License
